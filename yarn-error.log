@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.10.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/mac/Documents/eunha/Homework/package.json: Unexpected token 
+   in JSON at position 651
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "homework",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon --exec babel-node src/app.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ouhouh1936/Homework.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ouhouh1936/Homework/issues"
+    },
+    "homepage": "https://github.com/ouhouh1936/Homework#readme",
+    "dependencies": {
+      "@babel/cli": "^7.10.5",
+      "@babel/core": "^7.10.5",
+      "@babel/node": "^7.10.5",
+      "@babel/preset-env": "^7.10.4",
+      "express": "^4.17.1",
+      "nodemon": "^2.0.4",
+      "pug": "^3.0.
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
